@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "pm8_project_task_quick_create",
+    'name': "Project Task Quick Create",
+    'license': 'LGPL-3',
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
@@ -10,7 +11,7 @@
         Long description of module's purpose
     """,
 
-    'author': "PM8",
+    'author': "fabian@pm8.pro",
     'website': "https://www.pm8.pro",
 
     # Categories can be used to filter modules in modules listing
