@@ -4,21 +4,21 @@
     'license': 'LGPL-3',
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        This module allows for inline task creation in list view.
+        Then the Edit button opens the task form for further encoding""",
 
     'description': """
-        Long description of module's purpose
+        TBD
     """,
 
-    'author': "fabian@pm8.pro",
+    'author': "PM8",
     'website': "https://www.pm8.pro",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/16.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Project',
-    'version': '16.0.1',
+    'version': '16.0.0.1',
 
     # any module necessary for this one to work correctly
     'depends': ['project'],
