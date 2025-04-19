@@ -1,0 +1,67 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+.eggs/
+
+# Odoo
+*.log
+*.pot
+*.mo
+*.swp
+*.swo
+*.~*
+
+# Environments / IDEs
+.env
+.env.*
+.vscode/
+.idea/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Testing / temp
+*.orig
+*.bak
+*.tmp
+*.temp
+*.~backup
+*.~snapshot
+
+# Node / Webpack (if you use assets)
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+*.tgz
+
+# Build artifacts (if building assets)
+dist/
+build/
+static/dist/
+static/lib/
+
+# Odoo generated (for enterprise/custom sometimes)
+*.zip
+*.tar.gz
+
+# Custom files
+*.db
+*.sql
+*.sqlite3
+*.xlsx
+*.xls
+*.csv
+*.xml~
+
+# PyCharm or JetBrains IDEs
+.idea/
+*.iml
+
