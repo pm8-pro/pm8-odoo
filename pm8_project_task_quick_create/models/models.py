@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 
-# from odoo import models, fields, api
+from odoo import models
 
+class ProjectTask(models.Model):
+    _inherit = 'project.task' 
 
-# class pm8_project_task_quick_create(models.Model):
-#     _name = 'pm8_project_task_quick_create.pm8_project_task_quick_create'
-#     _description = 'pm8_project_task_quick_create.pm8_project_task_quick_create'
+    def action_open_task(self):
+        self.ensure_one()
 
-#     name = fields.Char()
-#     value = fields.Integer()
-#     value2 = fields.Float(compute="_value_pc", store=True)
-#     description = fields.Text()
-#
-#     @api.depends('value')
-#     def _value_pc(self):
-#         for record in self:
-#             record.value2 = float(record.value) / 100
+        return {
+            'type': 'ir.actions.act_window',
+            'name': 'Task',
+            'res_model': 'project.task',
+            'view_mode': 'form',
+            'res_id': self.id, 
+            'target': 'current', 
+        }
