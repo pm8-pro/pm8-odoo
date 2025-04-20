@@ -10,7 +10,7 @@
 
     'description': """
         This module allows for inline task creation in list view.
-        Then the Edit button opens the task form for further encoding""",
+        Then the Edit button opens the task form for further encoding
     """,
 
     'license': 'LGPL-3',
