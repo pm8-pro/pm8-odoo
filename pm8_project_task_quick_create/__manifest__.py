@@ -5,11 +5,12 @@
     'name': "Project Task Quick Create",
 
     'summary': """
-        This module allows for inline task creation in list view.
-        Then the Edit button opens the task form for further encoding""",
+    Quick task creation in list view
+    """,
 
     'description': """
-        TBD
+        This module allows for inline task creation in list view.
+        Then the Edit button opens the task form for further encoding""",
     """,
 
     'license': 'LGPL-3',
